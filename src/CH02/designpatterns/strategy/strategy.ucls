@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="CH02.designpatterns.strategy.FlyBehavior" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/FlyBehavior.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="202" y="293"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="2" language="java" name="CH02.designpatterns.strategy.FlyRocketPowered" 
-    project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/FlyRocketPowered.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="CH02.designpatterns.strategy.FlyRocketPowered" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/FlyRocketPowered.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="297" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -22,9 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="CH02.designpatterns.strategy.FlyWithWings" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/FlyWithWings.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="CH02.designpatterns.strategy.FlyWithWings" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/FlyWithWings.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="483" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -32,9 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="CH02.designpatterns.strategy.ModelDuck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/ModelDuck.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="CH02.designpatterns.strategy.ModelDuck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/ModelDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="524" y="315"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -42,10 +28,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="5" language="java" name="CH02.designpatterns.strategy.QuackBehavior" 
-    project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/QuackBehavior.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <interface id="4" language="java" name="CH02.designpatterns.strategy.QuackBehavior" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/QuackBehavior.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1579" y="282"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -53,8 +37,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="6" language="java" name="CH02.designpatterns.strategy.Squeak" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/Squeak.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="CH02.designpatterns.strategy.Squeak" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/Squeak.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1129" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -62,8 +46,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="CH02.designpatterns.strategy.Duck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/Duck.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="CH02.designpatterns.strategy.Duck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/Duck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="898" y="129"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -71,9 +55,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="CH02.designpatterns.strategy.FakeQuack" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/FakeQuack.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="7" language="java" name="CH02.designpatterns.strategy.FakeQuack" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/FakeQuack.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1312" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -81,10 +64,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="CH02.designpatterns.strategy.MiniDuckSimulator" 
-    project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/MiniDuckSimulator.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="CH02.designpatterns.strategy.MiniDuckSimulator" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/MiniDuckSimulator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="106" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -92,9 +73,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="CH02.designpatterns.strategy.RubberDuck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/RubberDuck.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="9" language="java" name="CH02.designpatterns.strategy.RubberDuck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/RubberDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="707" y="315"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -102,9 +82,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="CH02.designpatterns.strategy.FlyNoWay" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/FlyNoWay.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="CH02.designpatterns.strategy.FlyNoWay" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/FlyNoWay.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="666" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -112,9 +91,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="CH02.designpatterns.strategy.MuteQuack" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/MuteQuack.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="11" language="java" name="CH02.designpatterns.strategy.MuteQuack" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/MuteQuack.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1495" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -122,9 +100,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="CH02.designpatterns.strategy.MallardDuck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/MallardDuck.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="12" language="java" name="CH02.designpatterns.strategy.MallardDuck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/MallardDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="890" y="315"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -132,9 +109,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="CH02.designpatterns.strategy.DecoyDuck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/DecoyDuck.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="13" language="java" name="CH02.designpatterns.strategy.DecoyDuck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/DecoyDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1073" y="315"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -142,8 +118,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="15" language="java" name="CH02.designpatterns.strategy.Quack" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/Quack.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="14" language="java" name="CH02.designpatterns.strategy.Quack" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/Quack.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1678" y="84"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -151,9 +127,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="16" language="java" name="CH02.designpatterns.strategy.RedHeadDuck" project="Head First Design Patterns" 
-    file="/Head First Design Patterns/src/CH02/designpatterns/strategy/RedHeadDuck.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
+  <class id="15" language="java" name="CH02.designpatterns.strategy.RedHeadDuck" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH02/designpatterns/strategy/RedHeadDuck.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1256" y="315"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -161,68 +136,52 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="17">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <realization id="18">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <realization id="19">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
-  <generalization id="20">    
-    <end type="SOURCE" refId="13"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <generalization id="21">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <realization id="22">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
-  <generalization id="23">    
-    <end type="SOURCE" refId="16"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="7"/>  
-  </generalization>  
-  <realization id="25">    
+  <generalization id="16">    
     <end type="SOURCE" refId="12"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <realization id="26">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <association id="27">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="28" name="flyBehavior"/>      
-      <multiplicity id="29" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="30">    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="17">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="18">    
     <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
   </realization>  
-  <realization id="31">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+  <realization id="20">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
   </realization>  
-  <association id="32">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="33" name="quackBehavior"/>      
-      <multiplicity id="34" minimum="0" maximum="1"/>    
+  <realization id="21">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="26" name="quackBehavior">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
