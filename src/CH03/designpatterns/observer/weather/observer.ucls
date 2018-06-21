@@ -1,310 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="CH03.designpatterns.observer.weather.WeatherData" project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/WeatherData.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="883" y="602"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="2" language="java" name="CH03.designpatterns.observer.weather.DisplayElement" project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/DisplayElement.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1041" y="43"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="3" language="java" name="CH03.designpatterns.observer.weather.WeatherStationHeatIndex" 
+  <class id="1" language="java" name="CH03.designpatterns.observer.weather.WeatherStationHeatIndex" 
     project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/WeatherStationHeatIndex.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="194" y="267"/>    
+    <position height="-1" width="-1" x="309" y="88"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="CH03.designpatterns.observer.weather.ForecastDisplay" project="DesignPatterns" 
+  <class id="2" language="java" name="CH03.designpatterns.observer.weather.ForecastDisplay" project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/ForecastDisplay.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="645" y="254"/>    
+    <position height="-1" width="-1" x="183" y="520"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="CH03.designpatterns.observer.weather.StatisticsDisplay" project="DesignPatterns" 
+  <class id="3" language="java" name="CH03.designpatterns.observer.weather.StatisticsDisplay" project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/StatisticsDisplay.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="877" y="272"/>    
+    <position height="-1" width="-1" x="456" y="501"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="6" language="java" name="CH03.designpatterns.observer.weather.Observer" project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="383" y="553"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </interface>  
-  <class id="7" language="java" name="CH03.designpatterns.observer.weather.CurrentConditionsDisplay" 
+  <class id="4" language="java" name="CH03.designpatterns.observer.weather.CurrentConditionsDisplay" 
     project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/CurrentConditionsDisplay.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1368" y="254"/>    
+    <position height="-1" width="-1" x="1054" y="427"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="CH03.designpatterns.observer.weather.WeatherStation" project="DesignPatterns" 
+  <class id="5" language="java" name="CH03.designpatterns.observer.weather.WeatherStation" project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/WeatherStation.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="418" y="227"/>    
+    <position height="-1" width="-1" x="108" y="87"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="CH03.designpatterns.observer.weather.HeatIndexDisplay" project="DesignPatterns" 
+  <class id="6" language="java" name="CH03.designpatterns.observer.weather.HeatIndexDisplay" project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/HeatIndexDisplay.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1118" y="254"/>    
+    <position height="-1" width="-1" x="728" y="486"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="10" language="java" name="CH03.designpatterns.observer.weather.Subject" project="DesignPatterns" 
+  <class id="7" language="java" name="CH03.designpatterns.observer.weather.WeatherData" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/WeatherData.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="299" width="230" x="466" y="4"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="CH03.designpatterns.observer.weather.Subject" project="DesignPatterns" 
     file="/DesignPatterns/src/CH03/designpatterns/observer/weather/Subject.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1391" y="490"/>    
+    <position height="-1" width="-1" x="893" y="159"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="11" language="java" name="CH03.designpatterns.observer.weatherobservable.WeatherData" 
-    project="DesignPatterns" file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/WeatherData.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="157" y="1026"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="12" language="java" name="CH03.designpatterns.observer.weatherobservable.WeatherStation" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/WeatherStation.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="423" y="982"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <interface id="13" language="java" name="CH03.designpatterns.observer.weatherobservable.DisplayElement" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/DisplayElement.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1103" y="827"/>    
+  <interface id="9" language="java" name="CH03.designpatterns.observer.weather.Observer" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/Observer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="203" y="218"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="14" language="java" name="CH03.designpatterns.observer.weatherobservable.CurrentConditionsDisplay" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/CurrentConditionsDisplay.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="692" y="1021"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="15" language="java" name="CH03.designpatterns.observer.weatherobservable.HeatIndexDisplay" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/HeatIndexDisplay.java" binary="false" 
+  <interface id="10" language="java" name="CH03.designpatterns.observer.weather.DisplayElement" project="DesignPatterns" 
+    file="/DesignPatterns/src/CH03/designpatterns/observer/weather/DisplayElement.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="991" y="1015"/>    
+    <position height="-1" width="-1" x="624" y="717"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
-  </class>  
-  <class id="16" language="java" name="CH03.designpatterns.observer.weatherobservable.ForecastDisplay" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/ForecastDisplay.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1278" y="1022"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="17" language="java" name="CH03.designpatterns.observer.weatherobservable.StatisticsDisplay" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/StatisticsDisplay.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1558" y="978"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="18" language="java" name="CH03.designpatterns.observer.weatherobservable.WeatherStationHeatIndex" 
-    project="DesignPatterns" 
-    file="/DesignPatterns/src/CH03/designpatterns/observer/weatherobservable/WeatherStationHeatIndex.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1373" y="653"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <realization id="19">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <association id="20">    
-    <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="21" name="weatherData">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="22" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="23">    
-    <bendpoint x="1271" y="270"/>    
+  </interface>  
+  <association id="11">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="24" name="weatherData">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="25" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+      <attribute id="12" name="observers"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
     </end>    
-    <end type="TARGET" refId="10" navigable="true"/>    
+    <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="26">    
-    <bendpoint x="1247" y="270"/>    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="6"/>  
+  <realization id="14">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
   </realization>  
-  <realization id="27">    
-    <end type="SOURCE" refId="14"/>    
-    <end type="TARGET" refId="13"/>  
-  </realization>  
-  <realization id="28">    
-    <end type="SOURCE" refId="15"/>    
-    <end type="TARGET" refId="13"/>  
-  </realization>  
-  <realization id="29">    
-    <bendpoint x="1226" y="270"/>    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <realization id="30">    
-    <end type="SOURCE" refId="1"/>    
+  <association id="15">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="16" name="weatherData"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="19" name="weatherData"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="21">    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="10"/>  
   </realization>  
-  <realization id="31">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="32">    
-    <end type="SOURCE" refId="17"/>    
-    <end type="TARGET" refId="13"/>  
-  </realization>  
-  <realization id="33">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </realization>  
-  <realization id="34">    
-    <end type="SOURCE" refId="16"/>    
-    <end type="TARGET" refId="13"/>  
-  </realization>  
-  <realization id="35">    
-    <bendpoint x="711" y="270"/>    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="6"/>  
-  </realization>  
-  <association id="36">    
-    <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="37" name="weatherData">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="38" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+  <association id="22">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="23" name="weatherData"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="39">    
+  <realization id="25">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="28">    
     <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="2"/>  
+    <end type="TARGET" refId="8"/>  
   </realization>  
-  <realization id="40">    
-    <bendpoint x="655" y="270"/>    
+  <realization id="29">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="30">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="31">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="32" name="weatherData"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="34">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="6"/>  
+    <end type="TARGET" refId="9"/>  
   </realization>  
-  <association id="41">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="42" name="observers">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="43" minimum="0" maximum="2147483647">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="44">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="45" name="weatherData">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="46" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

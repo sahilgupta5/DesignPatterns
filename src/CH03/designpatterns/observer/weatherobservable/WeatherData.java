@@ -1,5 +1,5 @@
 package CH03.designpatterns.observer.weatherobservable;
-	
+
 import java.util.Observable;
 import java.util.Observer;
 	
